@@ -1,0 +1,99 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+/* line 11, ../sass/style.scss */
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+/* line 16, ../sass/style.scss */
+p {
+  line-height: 2rem;
+}
+
+/* line 20, ../sass/style.scss */
+.button-collapse {
+  color: #26a69a;
+}
+
+/* line 24, ../sass/style.scss */
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* line 31, ../sass/style.scss */
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+  /* line 36, ../sass/style.scss */
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+
+  /* line 40, ../sass/style.scss */
+  #index-banner .section {
+    top: 10%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* line 46, ../sass/style.scss */
+  #index-banner .section {
+    top: 0;
+  }
+}
+/* line 51, ../sass/style.scss */
+.icon-block {
+  padding: 0 15px;
+}
+
+/* line 54, ../sass/style.scss */
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+/* line 58, ../sass/style.scss */
+footer.page-footer {
+  margin: 0;
+}
+
+/* line 63, ../sass/style.scss */
+#index-banner .section.no-pad-bot {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+/* line 66, ../sass/style.scss */
+#index-banner .section.no-pad-bot .container {
+  padding-top: 80px;
+  padding-bottom: 160px;
+}
+@media only screen and (max-width: 600px) {
+  /* line 66, ../sass/style.scss */
+  #index-banner .section.no-pad-bot .container {
+    padding-bottom: 60px;
+  }
+}
+/* line 72, ../sass/style.scss */
+#index-banner .section.no-pad-bot .container #site-title {
+  color: #fff !important;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 600px) {
+  /* line 72, ../sass/style.scss */
+  #index-banner .section.no-pad-bot .container #site-title {
+    font-size: 36px;
+  }
+}
